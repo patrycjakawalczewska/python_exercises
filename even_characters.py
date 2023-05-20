@@ -22,4 +22,12 @@ print(next(iteration))
 
 #2) option:
 
+#use any input as a string
+word = input('Enter word ')
+print("Original strong is", word)
+print('Printing only even index chars')
+
+#iterate the string and print every 2nd letter
+for i in range(0, (len(word))-1, 2):
+    print(word[i])
 
