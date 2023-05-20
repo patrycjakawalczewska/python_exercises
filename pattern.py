@@ -11,17 +11,19 @@ def print_pattern(x):
         print('#', end='')
         for z in range(1, y+1):
             print(str(y), end =" ")
-# new line after each row to display pattern correctly:
+#new line after each row to display pattern correctly:
         print()
 print_pattern(5)
 
 #without hashtags:
 
+#1st option:
+
 def print_pattern(x):
     for y in range(1, x+1):
         for z in range(1, y+1):
             print(str(y), end =" ")
-# new line after each row to display pattern correctly:
+#new line after each row to display pattern correctly:
         print()
 print_pattern(5)
 
@@ -31,5 +33,5 @@ print_pattern(5)
 for num in range(10):
     for i in range(num):
         print(num, end=" ")
-    # new line after each row to display pattern correctly
+#new line after each row to display pattern correctly
      print()
