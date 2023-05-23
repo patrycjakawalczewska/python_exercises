@@ -1,0 +1,20 @@
+##Exercise 1: Create a function in Python
+#Write a program to create a function that takes two arguments, name and age, and print their value.
+
+def function(name, age):
+    print(name,age)
+function('Patrycja',22)
+
+##Exercise 2: Create a function with variable length of arguments
+#Write a program to create function func1() to accept a variable length of arguments and print their value.
+#Note: Create a function in such a way that we can pass any number of arguments to this function, 
+#and the function should process them and display each argument’s value.
+
+print('Printing values:')
+#create a function that prints variable # of arguments:
+def func1(*value):
+    for i in value:
+        print(i)
+#call func1:
+func1(20,40)
+
