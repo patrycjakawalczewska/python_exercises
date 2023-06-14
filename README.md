@@ -1,3 +1,3 @@
-## Exercises in Python
+## Python exercises
 
-This repository comprises my exercises in Python
+This repository comprises my learning journey in Python
